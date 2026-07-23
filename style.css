@@ -78,3 +78,39 @@ footer{
     padding:25px;
     margin-top:50px;
 }
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 70px;
+background:white;
+position:sticky;
+top:0;
+z-index:1000;
+box-shadow:0 2px 12px rgba(0,0,0,.08);
+}
+
+.logo{
+font-size:24px;
+font-weight:bold;
+color:#0d6efd;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:35px;
+margin:0;
+padding:0;
+}
+
+nav a{
+text-decoration:none;
+color:#333;
+font-weight:600;
+transition:.3s;
+}
+
+nav a:hover{
+color:#0d6efd;
+}
